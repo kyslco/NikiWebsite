@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 20px 100px;
+    background: transparent;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: rgb(245, 241, 241);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+    body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    min-height: 50vh;
+    display: contents;
+    
+    
+    
+    .background{
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    }
+
+    .background img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 50%;
+    min-height: 50%;
+    filter: blur(15px);
+    -webkit-filter: blur(50px);
+    transform: scale(1.1);
+    }
+    
+    .main-content {
+            padding: 20px;
+            margin-top: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+    }
+    .main-content h1 {
+            text-align:center;
+            color: #333;
+            margin-top: 30px;
+    }
+    .main-content p {
+            text-align: center;
+            color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+    }
+
+
+    
+
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <img src="images/7.jpg" id="bg-img">
+    </div>
+    
+    <header class="header">
+        <a href="" class="logo">NIKI Zefanya</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="lyric.html">Lyrics</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <h1 style="color: bisque;">About NIKI</h1>
+        <p>
+            NIKI is the stage name of Indonesian R&B artist, Nicole Zefanya.<br>
+            Born on 24th January 1999 and raised in Jakarta, she is known for her<br>
+            charming rhythmic beats and euphoniously soothing vocals.<br>
+
+            She pulls her inspiration from the music she listened to as a child, including <br>
+            Destiny’s Child, Aaliyah, Mariah Carey, Boyz 2 Men, and Alicia Keys. She also drew her<br>
+            singing background from her mom when she sang at church, and when she was <br>
+            given a piano on her fifth birthday.<br>
+
+            Before NIKI went by her now stage name, she uploaded original songs and covers<br>
+            on YouTube under her government name. She also performed the opening for Taylor Swift’s<br>
+            Red Tour and sang Kim’s “I’m in love” alongside Stan Isakh.<br>
+
+            NIKI’s July 2017 single, “See U Never,” served as her debut to the major label 88rising,<br>
+            and a year later, she released her debut EP Zephyr under the label on May 23rd, 2018, which included<br>
+            eight songs. After the release of her second EP, wanna take this downtown? in 2019, she would go on to<br>
+            release her debut album MOONCHILD on September 10th, 2020. 
+        </p>
+    </div>
+
+
+</body>
+</html>
